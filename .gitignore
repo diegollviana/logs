@@ -1,0 +1,17 @@
+#ignorar arquivos especificos
+.DS_Store
+
+#arquivos e diretorios
+
+#ignorar os seguintes diretorios
+uploads/*
+.settings/*
+
+#ignorar arquivos .zipados
+*.rar
+*.tar.gz
+*.gz
+
+#ignorar os seguintes arquivos
+.project
+.buildpath
