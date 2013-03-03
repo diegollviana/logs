@@ -1,0 +1,744 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="pt-br" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="pt-br" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="pt-br" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="pt-br" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="pt-br" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>booksex</title>
+	<meta name="description" content="booksex">
+	<meta name="author" content="booksex">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" href="i/favicon.png">
+	<link rel="stylesheet" href="css/960_12_col.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--[if IE]>
+    	<style type="text/css">
+            #painel_simple_form select.w250{width:262px;}
+        </style>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    	<style type="text/css">
+            .painel_simple_form select.dia_nasc{min-width:55px;}
+            .painel_simple_form select.mes_nasc{min-width:95px;}
+            .painel_simple_form select.ano_nasc{min-width:70px;}
+        </style>
+    <![endif]-->
+    
+    <script src="js/libs/modernizr.2.0.6.js"></script>
+</head>
+<body class="home">
+	<div class="container">
+    	<header role="banner">
+        	<div class="container_12">
+            	<div class="grid_4 alpha omega" id="logo">
+            		<a href="index.html"><img src="i/logo.png" width="139" height="42" alt="Logo booksex"/></a>
+                    <p>Facilitando a realização das suas fantasias</p>
+                </div>
+                
+                <div class="grid_8">
+                	<div id="box_logged">
+                    	<img src="i/fake_profiles/1.jpg" class="photo_logged" width="50" height="50">
+                        
+                        <div class="menu_logged">
+                        	<a href="#" class="logged_login"><img src="i/icons/star13x13.png" title="você é um usuário assinante" alt="" class="star mr5">bruna_safadinha</a>
+                            
+                            <ul>
+                            	<li><a href="#">Meu booksex</a></li>
+                                <li><a href="#">Meu Perfil</a></li>
+                                <li><a href="#">Recados(1000)</a></li>
+                                <li><a href="#">Painel de controle</a></li>
+                                <li><a href="#">Sair</a></li>
+                            </ul>
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="clear"></div>
+                <div class="grid_12 alpha omega">
+                	<form id="form_search">
+                    	<fieldset class="search_for ml10">
+                        	<label for="genero">Procurar por:</label>
+                            <select name="genero" id="genero">
+                            	<option value="">Homem</option>
+                                <option value="" selected>Mulher</option>
+                                <option value="">Casal(Ele/Ela)</option>
+                                <option value="">Casal(Ela/Ela)</option>
+                                <option value="">Casal(Ele/Ele)</option>
+                            </select>
+                        </fieldset>
+                        
+                        <fieldset class="search_age ml35">
+                        	<label for="age">Entre:</label>
+                            <select name="idade" id="age">
+                            	<option value="">Qualquer idade</option>
+                                <option value="">18 e 24</option>
+                                <option value="">25 e 30</option>
+                                <option value="">30 e 40</option>
+                                <option value="">40 e 50</option>
+                                <option value="">acima de 50</option>
+                            </select>
+                        </fieldset>
+                        
+                        <fieldset class="search_state ml35">
+                        	<label for="state">Em:</label>
+                            <select name="estado" id="state">
+                            	<option value="">Qualquer lugar</option>
+                                <option value="">São Paulo</option>
+                                <option value="">Rio de Janeiro</option>
+                                <option value="">Rio Grande do Sul</option>
+                                <option value="">Minas Gerais</option>
+                                <option value="">Rio Grande do Norte</option>
+                            </select>
+                        </fieldset>
+                        
+                        <fieldset class="ml35">
+                        	<input type="image" src="i/btn/search.png" value="">
+                        </fieldset>
+                        
+                        <fieldset class="ml35">
+                        	<a href="#"><img src="i/btn/busca_avancada.png" alt="Busca avançada"></a>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </header>
+        
+        <div class="clear"></div>
+        
+        <div id="content" class="container_12">
+        	<div class="grid_12 alpha omega">
+            	<div id="content_panel">
+                	<div class="grid_3 omega" style="width:230px;">
+                    	<div class="user_box">
+                        	<img src="i/fake_profiles/1.jpg" class="photo_panel photo" width="50" height="50">
+                            
+                            <div class="user_box_actions">
+                            	<ul>
+                                	<li><strong>bruna_safadinha</strong></li>
+                                    <li><a href="#">Painel de controle</a></li>
+                                    <li><a href="#">Sair</a></li>
+                                </ul>
+                            </div>
+                        	<div class="clear"></div>
+                        </div>
+                        
+                        <div id="menu_left">
+                        	<nav>
+                            	<ul>
+                                	<li class="menu_title">
+                                    	<a href="#" class="pagina_inicial">Página inicial</a>
+                                    </li>
+                                    <li class="menu_title">
+                                    	<a href="#" class="default painel">Painel</a>
+                                        
+                                        <ul class="submenu">
+                                        	<li><a href="painel.html">- Notificações</a></li>
+                                            <li class="current"><a href="painel_editar_perfil.html">- Editar Perfil</a></li>
+                                            <li><a href="#">- Minha conta</a></li>
+                                            <li><a href="#">- Meus recados (1000)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_title">
+                                    	<a href="#" class="default amigos_favoritos">Amigos e favoritos</a>
+                                        
+                                        <ul class="submenu">
+                                        	<li><a href="#">- Pedidos de amizade (1000)</a></li>
+                                            <li><a href="#">- Meus amigos (1000)</a></li>
+                                            <li><a href="#">- Meus favoritos (1000)</a></li>
+                                            <li><a href="#">- De quem sou favorito (1000)</a></li>
+                                            <li><a href="#">- Usuários bloquados (1000)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_title">
+                                    	<a href="#" class="default meu_booksex">Meu booksex</a>
+                                        
+                                        <ul class="submenu">
+                                        	<li><a href="#">- Minhas fotos (1000)</a></li>
+                                            <li><a href="#">- Adicionar nova foto</a></li>
+                                            <li><a href="#">- Estatísticas</a></li>
+                                        </ul>
+                                    </li> 
+                                    <li class="menu_title last">
+                                    	<a href="#" class="default ferramentas">Ferramentas</a>
+                                        
+                                        <ul class="submenu">
+                                        	<li><a href="#">- Convidar um amigo</a></li>
+                                            <li><a href="#">- Contato / Suporte</a></li>
+                                            <li><a href="#">- Fazer uma denúncia</a></li>
+                                        </ul>
+                                    </li>                                                                        
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    
+                    <div id="content_main" class="grid_9 alpha omega">
+                    	<div id="content_center" class="grid_6 alpha omega" style="width:470px;">
+                            <div class="title_bar">
+                                <h3>Editar perfil</h3>
+                            </div>
+                            
+                            <div class="tabs_wrap_painel" style="position: relative;">
+                            	<div class="editar_perfil_tabs">
+                                	<ul class="tabs_painel">
+                                        <li class="current"><a href="#geral">Pessoal</a></li>
+                                        <li><a href="#localizacao">Localização</a></li>
+                                        <li><a href="#contato">Contato</a></li>
+                                        <li class="last"><a href="#interesses">Interesses</a></li>
+                                    </ul>
+                                    
+                                    <div class="clear"></div>
+                                </div>
+                                
+                                <div id="geral" class="editar_perfil_forms">
+                                	<div class="title_form">
+                                    	<span>- Informações pessoais</span>
+                                    </div>
+                                    
+                                    <div class="painel_simple_form">
+                                    	<div class="painel_simple_box_form">
+                                            <div class="painel_box_form">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td class="label"><label for="genero">Sou / Somos:</label></td>
+                                                        <td>
+                                                            <select name="genero" id="genero" class="w250">
+                                                                <option value="">Homem</option>
+                                                                <option value="">Mulher</option>
+                                                                <option value="" selected>Casal (1 homem e 1 mulher)</option>
+                                                                <option value="">Casal (2 mulheres)</option>
+                                                                <option value="">Casal (2 homens)</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label"><label for="nome">Nome dele:</label></td>
+                                                        <td><input type="text" name="nome" id="nome" value=""></td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label"><label for="nome2">Nome dela:</label></td>
+                                                        <td><input type="text" name="nome2" id="nome2" value=""></td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label"><label for="dt_nasc">Data de nascimento dele:</label></td>
+                                                        <td>
+                                                        	<select name="dia_nasc" id="cad_dia_nasc" class="dia_nasc">
+                                                                <option value="">Dia:</option>
+                                                                <option value="">1</option>
+                                                                <option value="">2</option>
+                                                                <option value="">3</option>
+                                                                <option value="">4</option>
+                                                                <option value="">5</option>
+                                                                <option value="">6</option>
+                                                            </select>
+                                                            
+                                                            <select name="mes_nasc" id="cad_mes_nasc" class="mes_nasc">
+                                                                <option value="">Mês:</option>
+                                                                <option value="">Janeiro</option>
+                                                                <option value="">Fevereiro</option>
+                                                                <option value="">Março</option>
+                                                                <option value="">Abril</option>
+                                                                <option value="">Maio</option>
+                                                                <option value="">Junho</option>
+                                                                <option value="">Julho</option>
+                                                                <option value="">Agosto</option>
+                                                                <option value="">Setembro</option>
+                                                                <option value="">Outubro</option>
+                                                                <option value="">Novembro</option>
+                                                                <option value="">Dezembro</option>
+                                                            </select>
+                                                            
+                                                            <select name="ano_nasc" id="cad_ano_nasc" class="ano_nasc">
+                                                                <option value="">Ano:</option>
+                                                                <option value="">1993</option>
+                                                                <option value="">1992</option>
+                                                                <option value="">1991</option>
+                                                                <option value="">1990</option>
+                                                                <option value="">1989</option>
+                                                                <option value="">1988</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label"><label for="cad_dia_nasc2">Data de nascimento dela:</label></td>
+                                                        <td>
+                                                        	<select name="dia_nasc2" id="cad_dia_nasc2" class="dia_nasc">
+                                                                <option value="">Dia:</option>
+                                                                <option value="">1</option>
+                                                                <option value="">2</option>
+                                                                <option value="">3</option>
+                                                                <option value="">4</option>
+                                                                <option value="">5</option>
+                                                                <option value="">6</option>
+                                                            </select>
+                                                            
+                                                            <select name="mes_nasc2" id="cad_mes_nasc2" class="mes_nasc">
+                                                                <option value="">Mês:</option>
+                                                                <option value="">Janeiro</option>
+                                                                <option value="">Fevereiro</option>
+                                                                <option value="">Março</option>
+                                                                <option value="">Abril</option>
+                                                                <option value="">Maio</option>
+                                                                <option value="">Junho</option>
+                                                                <option value="">Julho</option>
+                                                                <option value="">Agosto</option>
+                                                                <option value="">Setembro</option>
+                                                                <option value="">Outubro</option>
+                                                                <option value="">Novembro</option>
+                                                                <option value="">Dezembro</option>
+                                                            </select>
+                                                            
+                                                            <select name="ano_nasc2" id="cad_ano_nasc2" class="ano_nasc">
+                                                                <option value="">Ano:</option>
+                                                                <option value="">1993</option>
+                                                                <option value="">1992</option>
+                                                                <option value="">1991</option>
+                                                                <option value="">1990</option>
+                                                                <option value="">1989</option>
+                                                                <option value="">1988</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label"><label for="etnia">Etnia dele:</label></td>
+                                                        <td>
+                                                            <select name="etnia" id="etnia" class="w180">
+                                                                <option value="">sem resposta</option>
+                                                                <option value="">branco</option>
+                                                                <option value="">negro</option>
+                                                                <option value="">oriental</option>
+                                                                <option value="">latino</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label"><label for="etnia2">Etnia dela:</label></td>
+                                                        <td>
+                                                            <select name="etnia2" id="etnia2" class="w180">
+                                                                <option value="">sem resposta</option>
+                                                                <option value="">branco</option>
+                                                                <option value="">negro</option>
+                                                                <option value="">oriental</option>
+                                                                <option value="">latino</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label"><label for="cabelos">Cabelos dele:</label></td>
+                                                        <td>
+                                                            <select name="cabelo" id="cabelos" class="w180">
+                                                                <option value="">sem resposta</option>
+                                                                <option value="">Pretos</option>
+                                                                <option value="">Castanhos</option>
+                                                                <option value="">Ruivos</option>
+                                                                <option value="">Loiros</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label"><label for="cabelos2">Cabelos dela:</label></td>
+                                                        <td>
+                                                            <select name="cabelo2" id="cabelos2" class="w180">
+                                                                <option value="">sem resposta</option>
+                                                                <option value="">Pretos</option>
+                                                                <option value="">Castanhos</option>
+                                                                <option value="">Ruivos</option>
+                                                                <option value="">Loiros</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label"><label for="olhos">Olhos dele:</label></td>
+                                                        <td>
+                                                            <select name="olhos" id="olhos" class="w180">
+                                                                <option value="">sem resposta</option>
+                                                                <option value="">Pretos</option>
+                                                                <option value="">Castanhos</option>
+                                                                <option value="">Verdes</option>
+                                                                <option value="">Azuis</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label"><label for="olhos2">Olhos dela:</label></td>
+                                                        <td>
+                                                            <select name="olhos2" id="olhos2" class="w180">
+                                                                <option value="">sem resposta</option>
+                                                                <option value="">Pretos</option>
+                                                                <option value="">Castanhos</option>
+                                                                <option value="">Verdes</option>
+                                                                <option value="">Azuis</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label"><label for="altura">Altura dele:</label></td>
+                                                        <td><input type="text" name="altura" id="altura" value="" class="w50"> <span style="font-size:11px;"><strong>metros</strong></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label"><label for="altura2">Altura dela:</label></td>
+                                                        <td><input type="text" name="altura2" id="altura2" value="" class="w50"> <span style="font-size:11px;"><strong>metros</strong></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label"><label for="peso">Peso dele:</label></td>
+                                                        <td>
+                                                        	<input type="text" name="peso" id="peso" value="" class="w50">
+                                                            <select name="tipo_fisico" id="tipo_fisico" class="w180">
+                                                            	<option value="">sem resposta</option>
+                                                                <option value="">magro</option>
+                                                                <option value="">normal</option>
+                                                                <option value="">atlético</option>
+                                                                <option value="" selected>acima do peso</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label"><label for="peso2">Peso dela:</label></td>
+                                                        <td>
+                                                        	<input type="text" name="peso2" id="peso2" value="" class="w50">
+                                                            <select name="tipo_fisico2" id="tipo_fisico2" class="w180">
+                                                            	<option value="">sem resposta</option>
+                                                                <option value="">magro</option>
+                                                                <option value="">normal</option>
+                                                                <option value="" selected>atlético</option>
+                                                                <option value="">acima do peso</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label"><label for="bebe">Ele bebe?</label></td>
+                                                        <td>
+                                                            <select name="bebe" id="bebe" class="w180">
+                                                                <option value="">sem resposta</option>
+                                                                <option value="">Sim</option>
+                                                                <option value="">Não</option>
+                                                                <option value="">Ocasionalmente</option>
+                                                                <option value="">Socialmente</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label"><label for="bebe2">Ela bebe?</label></td>
+                                                        <td>
+                                                            <select name="bebe2" id="bebe2" class="w180">
+                                                                <option value="">sem resposta</option>
+                                                                <option value="">Sim</option>
+                                                                <option value="">Não</option>
+                                                                <option value="">Ocasionalmente</option>
+                                                                <option value="">Socialmente</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label" style="vertical-align:top;"><label for="altura">Descrição pessoal:</label></td>
+                                                        <td><textarea></textarea></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>&nbsp;</td>
+                                                        <td>
+                                                            <input type="button" class="btn_green_cadastro" value="Salvar informações">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                    	</div>
+                                    </div>
+                                </div>
+                                
+                                <div id="localizacao" class="editar_perfil_forms">
+                                	<div class="title_form">
+                                    	<span>- Sua localização</span>
+                                    </div>
+                                    
+                                    <div class="painel_simple_form">
+                                    	<div class="painel_simple_box_form">
+                                            <div class="painel_box_form">
+                                            	<table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td class="label"><label for="pais">País:</label></td>
+                                                        <td>
+                                                            <select name="pais" id="pais" class="w180">
+                                                                <option value="">Sem resposta</option>
+                                                                <option value="">Brasil</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label"><label for="estado">Estado:</label></td>
+                                                        <td>
+                                                            <select name="estado" id="estado" class="w180">
+                                                                <option value="">Sem resposta</option>
+                                                                <option value="">São Paulo</option>
+                                                                <option value="">Rio de Janeiro</option>
+                                                                <option value="">Rio Grande do Norte</option>
+                                                                <option value="">Mato Grosso do Sul</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label"><label for="cidade">Cidade:</label></td>
+                                                        <td>
+                                                            <select name="cidade" id="cidade" class="w180">
+                                                                <option value="">Sem resposta</option>
+                                                                <option value="">São Bernardo do Campo</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label"><label for="bairro">Bairro:</label></td>
+                                                        <td><input type="text" name="bairro" id="bairro" value=""></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>&nbsp;</td>
+                                                        <td>
+                                                            <input type="button" class="btn_green_cadastro" value="Salvar informações">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div id="contato" class="editar_perfil_forms">
+                                	<div class="title_form">
+                                    	<span>- Informações de contato</span>
+                                    </div>
+                                    
+                                    <div class="painel_simple_form">
+                                    	<div class="painel_simple_box_form">
+                                            <div class="painel_box_form">
+                                            	<table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                    	<td class="label"><label for="email_msn">Email / MSN:</label></td>
+                                                        <td><input type="text" name="email_msn" id="email_msn" value=""></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label">&nbsp;</td>
+                                                        <td>
+                                                            <select name="privacidade_email_msn" id="privacidade_email_msn" class="w180">
+                                                                <option value="">Sem resposta</option>
+                                                            </select>
+                                                            <a href="#"><img src="i/icons/sprite_privacy.png" alt=""></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label"><label for="facebook">Facebook:</label></td>
+                                                        <td><input type="text" name="facebook" id="facebook" value=""></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label">&nbsp;</td>
+                                                        <td>
+                                                            <select name="privacidade_facebook" id="privacidade_facebook" class="w180">
+                                                                <option value="">Sem resposta</option>
+                                                            </select>
+                                                            <a href="#"><img src="i/icons/sprite_privacy.png" alt=""></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label"><label for="twitter">Twitter:</label></td>
+                                                        <td><input type="text" name="twitter" id="twitter" value=""></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label">&nbsp;</td>
+                                                        <td>
+                                                            <select name="privacidade_twitter" id="privacidade_twitter" class="w180">
+                                                                <option value="">Sem resposta</option>
+                                                            </select>
+                                                            <a href="#"><img src="i/icons/sprite_privacy.png" alt=""></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label"><label for="orkut">Orkut:</label></td>
+                                                        <td><input type="text" name="orkut" id="orkut" value=""></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="label">&nbsp;</td>
+                                                        <td>
+                                                            <select name="privacidade_orkut" id="privacidade_orkut" class="w180">
+                                                                <option value="">Sem resposta</option>
+                                                            </select>
+                                                            <a href="#"><img src="i/icons/sprite_privacy.png" alt=""></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>&nbsp;</td>
+                                                        <td>
+                                                            <input type="button" class="btn_green_cadastro" value="Salvar informações">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div id="interesses" class="editar_perfil_forms">
+                                	<div class="title_form">
+                                    	<span>- Interesses pessoais</span>
+                                    </div>
+                                    
+                                    <div class="painel_simple_form">
+                                    	<div class="painel_simple_box_form">
+                                            <div class="painel_box_form">
+                                            	<table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                    	<td class="label tab_interesses"><label for="homem">Procuro por:</label></td>
+                                                        <td>
+                                                        	<p><label class="tab_interesses" for="homem"><input type="checkbox" name="homem" id="homem"> Homem</label></p>
+                                                            <p><label class="tab_interesses" for="mulher"><input type="checkbox" name="mulher" id="mulher"> Mulher</label></p>
+                                                            <p><label class="tab_interesses" for="casal_ele_ela"><input type="checkbox" name="casal_ele_ela" id="casal_ele_ela"> Casal (homem e mulher)</label></p>
+                                                            <p><label class="tab_interesses" for="casal_ela_ela"><input type="checkbox" name="casal_ela_ela" id="casal_ela_ela"> Casal (2 mulheres)</label></p>
+                                                            <p><label class="tab_interesses" for="casal_ele_ele"><input type="checkbox" name="casal_ele_ele" id="casal_ele_ele"> Casal (2 homens)</label></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td colspan="2"></td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label tab_interesses"><label for="sexo_virtual">Para:</label></td>
+                                                        <td>
+                                                        	<p><label class="tab_interesses" for="sexo_virtual"><input type="checkbox" name="sexo_virutal" id="sexo_virtual"> Sexo virtual</label></p>
+                                                            <p><label class="tab_interesses" for="sexo_dois"><input type="checkbox" name="sexo_dois" id="sexo_dois"> Sexo a dois</label></p>
+                                                            <p><label class="tab_interesses" for="swing"><input type="checkbox" name="swing" id="swing"> Swing</label></p>
+                                                            <p><label class="tab_interesses" for="em_grupo"><input type="checkbox" name="em_grupo" id="em_grupo"> Sexo em grupo</label></p>
+                                                            <p><label class="tab_interesses" for="relacionamento_discreto"><input type="checkbox" name="relacionamento_discreto" id="relacionamento_discreto"> Relacionamento discreto</label></p>
+                                                            <p><label class="tab_interesses" for="amizade"><input type="checkbox" name="amizade" id="amizade"> Apenas amizade</label></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td class="label tab_interesses"><label for="outros_interesses">Outros interesses:</label></td>
+                                                        <td><textarea></textarea></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>&nbsp;</td>
+                                                        <td>
+                                                            <input type="button" class="btn_green_cadastro" value="Salvar informações">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="clear"></div>
+                            </div>
+                        </div>                       
+                                        
+                    
+                        <div id="content_right" class="grid_3 omega">
+                            <div id="ultima_atualizacao">
+                                <div class="title_bar">
+                                    <h3>Minha última atualização</h3>
+                                </div>
+                                
+                                <div class="box_ultima_atualizacao">
+                                    <div class="image_ultima_atualizacao">
+                                        <a href="#"><img src="i/fake_profiles/25.jpg" width="80" height="60" class="photo"></a>
+                                    </div>
+                                    
+                                    <div class="ultima_atualizacao_info">
+                                        <span>Atualizado em</span>
+                                        <span class="ultima_atualizacao_data">17/12/2011</span>
+                                        
+                                        <p><a href="#" class="ultima_atualizacao_comments">150</a></p>
+                                    </div>
+                                    
+                                    <div class="ultima_atualizacao_nav">
+                                        <a href="#">Minhas fotos</a>&nbsp; &nbsp; &nbsp;&nbsp;
+                                        <a href="#">Meu booksex</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="meus_amigos">
+                                <div class="title_bar">
+                                    <h3>Meus amigos (1000)</h3>
+                                </div>
+                                
+                                <div class="box_meus_amigos_favoritos">
+                                    <ul>
+                                        <li><a href="#"><img src="i/fake_profiles/2.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/3.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/4.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/5.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/6.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/7.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/8.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/9.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/10.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/11.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/12.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/13.jpg" width="50" height="50" class="photo"></a></li>
+                                    </ul>
+                                    <div class="ver_todos">
+                                        <a href="#">Ver meus amigos</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="meus_favoritos">
+                                <div class="title_bar">
+                                    <h3>Meus favoritos (1000)</h3>
+                                </div>
+                                
+                                <div class="box_meus_amigos_favoritos">
+                                    <ul>
+                                        <li><a href="#"><img src="i/fake_profiles/12.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/10.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/11.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/13.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/8.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/9.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/5.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/6.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/4.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/7.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/2.jpg" width="50" height="50" class="photo"></a></li>
+                                        <li><a href="#"><img src="i/fake_profiles/3.jpg" width="50" height="50" class="photo"></a></li>
+                                    </ul>
+                                    <div class="ver_todos">
+                                        <a href="#">Ver meus favoritos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+        	<div class="container_12">
+            	<div class="prefix_4 grid_4">
+                	<ul class="up">
+      					<li><a href="index.html">Home</a> |</li>
+      					<li><a href="#">Termos de uso</a> |</li>
+                        <li><a href="#">Contato</a> |</li>
+      					<li><a href="#">Denúncia</a></li>
+    				</ul>
+                    
+                    <p><img src="i/logo_footer.png" alt="booksex"></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.6.2.min.js"%3E%3C/script%3E'))</script>
+    <script src="js/libs/jquery.placeholder.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/libs/jquery-ui/min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

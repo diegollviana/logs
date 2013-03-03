@@ -1,0 +1,231 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="pt-br" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="pt-br" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="pt-br" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="pt-br" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="pt-br" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>booksex</title>
+	<meta name="description" content="booksex">
+	<meta name="author" content="booksex">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" href="i/favicon.png">
+	<link rel="stylesheet" href="css/960_12_col.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--[if lt IE 9]>
+    	<style type="text/css">
+            #simple_form select.dia_nasc{min-width:55px;}
+            #simple_form select.mes_nasc{min-width:95px;}
+            #simple_form select.ano_nasc{min-width:70px;}
+        </style>
+    <![endif]-->
+    
+    <script src="js/libs/modernizr.2.0.6.js"></script>
+</head>
+<body class="home">
+	<div class="container">
+    	<header role="banner">
+        	<div class="container_12">
+            	<div class="grid_4 alpha omega" id="logo">
+            		<a href="index.html"><img src="i/logo.png" width="139" height="42" alt="Logo booksex"/></a>
+                    <p>Facilitando a realização das suas fantasias</p>
+                </div>
+                
+                <div class="grid_8">
+                	<form id="form_login">
+                    	<fieldset>
+                        	<label for="input_login">Login</label>
+                            <input type="text" name="login" id="input_login" placeholder="Login">
+                        </fieldset>
+                        
+                        <fieldset>
+                        	<label for="input_password">Senha</label>
+                            <input type="password" name="password" id="input_password" placeholder="Senha" class="ml50">
+                        </fieldset>
+                        
+                        <fieldset>
+                        	<input type="button" class="btn_green_100x30 ml50" value="ENTRAR">
+                        </fieldset>
+                    </form>
+                    <div class="sign_up"><a href="#">Cadastre-se</a></div>
+                    <div class="forget_password ml50" style="width:200px; float:left;"><a href="#">Esqueceu a senha?</a></div>
+                </div>
+                <div class="clear"></div>
+                <div class="grid_12 alpha omega">
+                	<form id="form_search">
+                    	<fieldset class="search_for ml10">
+                        	<label for="genero">Procurar por:</label>
+                            <select name="genero" id="genero">
+                            	<option value="">Homem</option>
+                                <option value="" selected>Mulher</option>
+                                <option value="">Casal(Ele/Ela)</option>
+                                <option value="">Casal(Ela/Ela)</option>
+                                <option value="">Casal(Ele/Ele)</option>
+                            </select>
+                        </fieldset>
+                        
+                        <fieldset class="search_age ml35">
+                        	<label for="age">Entre:</label>
+                            <select name="idade" id="age">
+                            	<option value="">Qualquer idade</option>
+                                <option value="">18 e 24</option>
+                                <option value="">25 e 30</option>
+                                <option value="">30 e 40</option>
+                                <option value="">40 e 50</option>
+                                <option value="">acima de 50</option>
+                            </select>
+                        </fieldset>
+                        
+                        <fieldset class="search_state ml35">
+                        	<label for="state">Em:</label>
+                            <select name="estado" id="state">
+                            	<option value="">Qualquer lugar</option>
+                                <option value="">São Paulo</option>
+                                <option value="">Rio de Janeiro</option>
+                                <option value="">Rio Grande do Sul</option>
+                                <option value="">Minas Gerais</option>
+                                <option value="">Rio Grande do Norte</option>
+                            </select>
+                        </fieldset>
+                        
+                        <fieldset class="ml35">
+                        	<input type="image" src="i/btn/search.png" value="">
+                        </fieldset>
+                        
+                        <fieldset class="ml35">
+                        	<a href="#"><img src="i/btn/busca_avancada.png" alt="Busca avançada"></a>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </header>
+        
+        <div class="clear"></div>
+        
+        <div id="content" class="container_12">
+        	<div class="grid_12 alpha omega">
+            	<div id="simple_form" class="prefix_2 grid_8">
+                	<h1>Cadastre-se no booksex</h1>
+                    <p>é fácil, rápido e é GRÁTIS!</p>
+                    
+                    <div class="simple_box_form">
+                    	<div class="box_form">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="label"><label for="cad_username" class="tp10">Usuário:</label></td>
+                                    <td><input type="text" name="username" id="cad_username" value="" title="Este será o seu login de acesso e seu endereço no booksex"></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="label"><label for="cad_password" class="tp10">Senha:</label></td>
+                                    <td><input type="password" name="password" id="cad_password" value="" class="simple_form_pass"></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="label"><label for="cad_email" class="tp10">Email:</label></td>
+                                    <td><input type="text" name="email" id="cad_email" value="" title="Informe um email válido"></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="label"><label for="cad_confirm_email" class="tp10">Confirme o email:</label></td>
+                                    <td><input type="text" name="confirm_email" id="cad_confirm_email" value=""></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="label"><label for="cad_dia_nasc" class="tp10">Data de nascimento:</label></td>
+                                    <td>
+                                    	<select name="dia_nasc" id="cad_dia_nasc" class="dia_nasc">
+                                        	<option value="">Dia:</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                            <option value="">4</option>
+                                            <option value="">5</option>
+                                            <option value="">6</option>
+                                        </select>
+                                        
+                                        <select name="mes_nasc" id="cad_mes_nasc" class="mes_nasc">
+                                        	<option value="">Mês:</option>
+                                        	<option value="">Janeiro</option>
+                                            <option value="">Fevereiro</option>
+                                            <option value="">Março</option>
+                                            <option value="">Abril</option>
+                                            <option value="">Maio</option>
+                                            <option value="">Junho</option>
+                                            <option value="">Julho</option>
+                                            <option value="">Agosto</option>
+                                            <option value="">Setembro</option>
+                                            <option value="">Outubro</option>
+                                            <option value="">Novembro</option>
+                                            <option value="">Dezembro</option>
+                                        </select>
+                                        
+                                        <select name="ano_nasc" id="cad_ano_nasc" class="ano_nasc">
+                                        	<option value="">Ano:</option>
+                                            <option value="">1993</option>
+                                            <option value="">1992</option>
+                                            <option value="">1991</option>
+                                            <option value="">1990</option>
+                                            <option value="">1989</option>
+                                            <option value="">1988</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    	<input type="checkbox" name="termos" id="cad_termos">
+                                        <label for="cad_termos">Concordo com os <a href="termos.html" class="cad_termos">temos de uso</a></label>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                    	<input type="button" class="btn_green_cadastro" value="Cadastre-se">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+        	<div class="container_12">
+            	<div class="prefix_4 grid_4">
+                	<ul class="up">
+      					<li><a href="index.html">Home</a> |</li>
+      					<li><a href="#">Termos de uso</a> |</li>
+                        <li><a href="#">Contato</a> |</li>
+      					<li><a href="#">Denúncia</a></li>
+    				</ul>
+                    
+                    <p><img src="i/logo_footer.png" alt="booksex"></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.6.2.min.js"%3E%3C/script%3E'))</script>
+    <script src="js/libs/jquery.placeholder.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/libs/jquery-ui/min.js" type="text/javascript" charset="utf-8"></script>
+    
+	<script src="js/libs/jquery.tipsy.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/tipsy.css">
+    
+    <script src="js/libs/jquery.colorbox-min.js"></script>
+    <link rel="stylesheet" href="css/colorbox.css" />
+    
+	<script src="js/script.js"></script>
+</body>
+</html>
