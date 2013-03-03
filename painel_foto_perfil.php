@@ -10,7 +10,7 @@
 			$result = pg_fetch_array($resultSet);
 			
 			$username = anti_injection($result['username']);
-			$folder   = 'uploads/avatar/' . anti_injection($result['folder']);		
+			$folder   = $config['pathFotos']['avatar'] . anti_injection($result['folder']); // Ex.: 'uploads/avatar/d/12/'
 		
 			include('class/class.upload/class.upload.php');
 			
